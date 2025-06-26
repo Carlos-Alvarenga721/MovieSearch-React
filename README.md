@@ -29,5 +29,7 @@ Permite al usuario consultar una API pública para buscar películas y agregar s
 1. **Clona el repositorio:**
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/Carlos-Alvarenga721/MovieSearch-React.git
+cd MovieSearch
+npm install
+npm run dev
