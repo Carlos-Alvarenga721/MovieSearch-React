@@ -1,12 +1,33 @@
-# React + Vite
+# 🎬 React Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación de búsqueda de películas desarrollada con **React**.  
+Permite al usuario consultar una API pública para buscar películas y agregar sus favoritas utilizando el manejo de estado con hooks (`useState`, `useEffect`).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades principales
 
-## Expanding the ESLint configuration
+- 🔍 Búsqueda de películas en una API pública.
+- ❤️ Posibilidad de agregar y quitar películas de una lista de favoritos.
+- 💾 Guardado temporal de favoritos usando el estado de React y LocalStorage.
+- 🎨 Interfaz simple y responsiva.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- [React](https://reactjs.org/)
+- JavaScript (ES6+)
+- HTML5 + CSS3
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- Hooks: `useState`, `useEffect`
+
+---
+
+## 📦 Instalación y ejecución
+
+1. **Clona el repositorio:**
+
+```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+cd tu-repo
